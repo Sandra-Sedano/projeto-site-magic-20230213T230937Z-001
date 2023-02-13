@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body>header {
+    width: 100%;
+    height: 60px;
+    background: #0c0f11;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-left: 50px;
+
+
+
+}
+
+.logotipo img {
+    height: 50px;
+
+}
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+.menu a, .menu a:visited {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.banner img{
+ width: 100%;
+ position: relative;
+}
+.cacadaMeiaNoite {
+    background-image: url("../img/titulo_banner.png");
+position: relative;
+}
+
+.nossosJogos{
+    background-image: url("../img/bg-nossos-jogos.jpg"); /*para colocar a imagem no fundo*/
+padding: 100px;
+position: relative;
+} 
+.artigos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    /*Para colocar as imagens uma ao lado da outro, tudo esta dentro da mesma DIV*/
+
+}
